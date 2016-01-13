@@ -40,8 +40,8 @@ a{
     height: 44px;
     line-height: 44px;
 }
-.header:active{
-    background: rgb(0,0,0);
+.header *:active{
+    background: rgb(0,0,0)!important;
 }
 
 .header .header-con{
@@ -340,7 +340,7 @@ a{
     background: rgb(242,242,242);
     padding-bottom: 20px;
 }
-.footer-pc:active{
+.footer-pc *:active{
     background: rgb(242,242,242);
 }
 .footer-pc .inner .col{
@@ -405,7 +405,7 @@ a{
         background: rgb(242,242,242);
         padding-bottom: 20px;
     }
-    .footer-mobi:active{
+    .footer-mobi *:active{
         background: rgb(242,242,242);
     }
     .footer-mobi .inner{
