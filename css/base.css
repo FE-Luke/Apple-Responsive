@@ -133,7 +133,7 @@ a{
     margin: 5px 0;
 }
 .submenu #search:focus{
-    border: none!important;
+    outline: none!important;
 }
 .banner{
     position: relative;
