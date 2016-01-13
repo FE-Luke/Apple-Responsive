@@ -132,6 +132,9 @@ a{
     font-size: 18px;
     margin: 5px 0;
 }
+.submenu #search:focus{
+    border: none!important;
+}
 .banner{
     position: relative;
     overflow: hidden;
