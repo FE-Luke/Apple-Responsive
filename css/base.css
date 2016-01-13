@@ -40,7 +40,7 @@ a{
     height: 44px;
     line-height: 44px;
 }
-.header *:active{
+.header *:active , .header *:hover{
     background-color: rgb(0,0,0)!important;
 }
 
