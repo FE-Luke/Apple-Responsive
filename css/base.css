@@ -2,6 +2,9 @@ body{
     padding: 0;
     margin: 0;
 }
+::selection{
+    background: none!important;
+}
 @font-face {font-family: "iconfont";
     src: url('./font/iconfont.eot'); /* IE9*/
     src: url('./font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -39,6 +42,9 @@ a{
     background: rgb(0,0,0);
     height: 44px;
     line-height: 44px;
+}
+.header *:active , .header *:hover{
+    background-color: rgb(0,0,0)!important;
 }
 
 .header .header-con{
@@ -128,6 +134,9 @@ a{
     border: none;
     font-size: 18px;
     margin: 5px 0;
+}
+.submenu #search:focus{
+    outline: none!important;
 }
 .banner{
     position: relative;
