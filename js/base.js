@@ -34,6 +34,10 @@ $(function () {
         $(this).parent().find('ul').slideToggle(500);
     });
 
+    $('.header *').click(function(){
+        $(this).css('backgroundColor':'#000');
+    });
+
     (function(){
         var count = 0;
         var length = $('.banner-content li').length;
